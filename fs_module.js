@@ -37,3 +37,20 @@ function write(file) {
 
 write('"Hi world"')
 
+function read(file) {
+    return fs.readFile(file, 'utf8',((err , data)=>{
+        if(err) {
+            console.log('err')
+        }else{
+            console.log('success' ,data)
+        }
+    }))
+}
+
+read('./file.txt')
+
+function isexist(file) {
+    return fs.existsSync(file)
+}
+
+console.log(isexist('./isexist.txt'))
