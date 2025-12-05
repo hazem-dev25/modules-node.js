@@ -1,10 +1,15 @@
+const { log } = require('console');
 const path = require('path');
 
-let mypath = ' D:/Learn-Programming/route(Backend)'
+let mypath = 'C:/Users/1/OneDrive/Desktop/route(Backend)/module_in.js'
 
 console.log(__dirname);
 
 console.log(__filename);
 
 console.log(path.basename(mypath));
+
+console.log(path.extname(mypath));
+
+console.log(path.isAbsolute(mypath))
 
