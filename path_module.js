@@ -16,3 +16,10 @@ console.log(path.extname(mypath));
 console.log(path.isAbsolute(mypath))
 
 console.log(path.resolve(pAth))
+
+function join(from , to) {
+    return path.join(from , to);
+}
+
+console.log(join('OneDrive/Desktop','route(Backend)/module_in.js'))
+
