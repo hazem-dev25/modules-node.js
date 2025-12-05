@@ -3,6 +3,8 @@ const path = require('path');
 
 let mypath = 'C:/Users/1/OneDrive/Desktop/route(Backend)/module_in.js'
 
+let pAth = './route(Backend)'
+
 console.log(__dirname);
 
 console.log(__filename);
@@ -13,3 +15,4 @@ console.log(path.extname(mypath));
 
 console.log(path.isAbsolute(mypath))
 
+console.log(path.resolve(pAth))
