@@ -54,3 +54,4 @@ function isexist(file) {
 }
 
 console.log(isexist('./isexist.txt'))
+
