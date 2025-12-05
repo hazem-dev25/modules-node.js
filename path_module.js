@@ -23,3 +23,5 @@ function join(from , to) {
 
 console.log(join('OneDrive/Desktop','route(Backend)/module_in.js'))
 
+
+console.log(path.parse(mypath))
